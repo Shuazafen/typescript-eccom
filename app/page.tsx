@@ -1,6 +1,8 @@
 import Container from "@/components/Container";
 import HomeBanner from "@/components/HomeBanner";
 import Image from "next/image";
+import {handleAuth} from "@kinde-oss/kinde-auth-nextjs/server";
+export const GET = handleAuth();
 
 export default function Home() {
   return (
