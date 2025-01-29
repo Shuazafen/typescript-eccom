@@ -7,3 +7,10 @@ export const headerData = [
     {title:'New', href: "/new"},
     {title:'Featured', href: "/featured"},
 ]
+
+export const productType = [
+    {title: "Goth Rings", value: 'goth-rings'},
+    {title: "Goth Chains", value: 'goth-chains'},
+    {title: "Goth Necklaces", value: 'goth-necklaces'},
+    {title: "Goth Bracelets", value: 'goth-bracelets'},
+]
